@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italianno&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inika&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Apollo pizzeria & bar</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="logo">
+        <h1>Apollo</h1>
+        <h2></h2>
+      </div>
+      <div class="hamburger">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </div>
+      <div class="close">
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      <nav>
+        <ul>
+          <li><a id="homepage" href="#">Home</a></li>
+          <li><a href="./menu.php">Weekly Menu</a></li>
+          <li><a href="./etlap.html">Menu</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="center">
+        <h1 class="welcome">Welcome to</h1>
+        <h2 class="restaurant-name">Apollo</h2>
+        <a href="./contact.html">Book a table</a>
+        <div class="arrow">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-overlay"></div>
+    <article id="order" class="hide">
+      <div class="article-text article-text-1">
+        <h1>Order from home</h1>
+        <p>
+          Monday to Friday: 10:30 am to 11 pm <br />
+          Weekends: 11 am to 11 pm
+        </p>
+        <a href="./contact.html"> 7512 123 123 </a>
+      </div>
+      <div class="article-img article-img-1"></div>
+      <div class="article-overlay"></div>
+    </article>
+    <article id="weekly" class="hide">
+      <div class="article-text article-text-2">
+        <h1>Weekly menu</h1>
+        <p>This week we wait you with these special dishes for lunch</p>
+        <a href="./menu.php">Menü</a>
+      </div>
+      <div class="article-img article-img-2"></div>
+      <div class="article-overlay"></div>
+    </article>
+
+    <div class="box1">
+      <div class="text">
+        <h1>OPEN HOURS</h1>
+        <p>
+          Monday to Friday: 10:30 am to 11 pm <br />
+          Weekends: 11 am to 11 pm
+        </p>
+      </div>
+      <div class="box1-overlay"></div>
+    </div>
+
+    <article id="full-menu" class="hide">
+      <div class="article-text article-text-3">
+        <h1>Full Menu</h1>
+        <p>Discover our menu !</p>
+        <a href="./etlap.html">Menu</a>
+      </div>
+      <div class="article-img article-img-3"></div>
+      <div class="article-overlay"></div>
+    </article>
+    <article id="contact" class="hide">
+      <div class="article-text article-text-4">
+        <h1>Contact</h1>
+        <p>
+          Events, table bookings, anniversaries... <br>
+          All you need!
+        </p>
+        <a href="./contact.html">Contact</a>
+      </div>
+      <div class="article-img article-img-4"></div>
+      <div class="article-overlay"></div>
+    </article>
+    <footer>
+      <div class="social-media">
+        <p class="follow">Follow us</p>
+        <a href="" target="_blank">
+          <i class="fab fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a href="" target="_blank">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+        <p>Cookie policy</p>
+      </div>
+
+      <div class="open">
+        <h6>OPEN HOURS</h6>
+        <p>
+          Monday to Friday: 10:30 am to 11 pm <br />
+          Weekends: 11 am to 11 pm
+        </p>
+      </div>
+
+      <div class="rights">
+        <p>
+          Copyright &#169; <span id="copyright-year"></span> APOLLO Pizzeria &
+          Bar.
+        </p>
+        <p>All rights preserved</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+      integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+      integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index-animations.js"></script>
+    <script src="./date.js"></script>
+    <script src="./navbar.js"></script>
+  </body>
+</html>

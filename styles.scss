@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  background-color: #ffffff;
+}
+
+.hamburger {
+  display: none;
+}
+
+.close {
+  display: none;
+}
+
+@media only screen and (max-width: 1135px) {
+  .hero {
+    nav {
+      padding-right: 0px;
+    }
+  }
+}
+@media only screen and (max-width: 900px) {
+  .hero {
+    nav {
+      ul li a {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  #order {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+}
